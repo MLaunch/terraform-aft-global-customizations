@@ -1,17 +1,11 @@
-# Learn Terraform - Use Control Tower Account Factory for Terraform
+# Use Control Tower Account Factory for Terraform
 
-This is a companion repository for the [Provision and Manage Accounts with
-Control Tower Account Factory for Terraform
-tutorial](https://learn.hashicorp.com/tutorials/terraform/aws-control-tower-aft)
-tutorial on HashiCorp Learn.
+This is a companion repository for the [Provision and Manage Accounts with Control Tower Account Factory]
 
-This repository contains boilerplate configuration for defining global
-customizations to use with the Account Factory for Terraform
-module. The README below and the template files in this repository were
-provided by AWS.
+This repository contains boilerplate configuration for defining global customizations to use with the Account Factory for Terraform
+module. The README below and the template files in this repository were provided by AWS.
 
-To create your global customizations, replicate this repository
-and extend the Terraform configuration.
+To create your global customizations, replicate this repository and extend the Terraform configuration.
 
 ## Introduction
 This repo stores the Terraform and API helpers for the Global Customizations. Global Customizations are used to customize all provisioned accounts with customer defined resources. The resources can be created through Terraform or through Python, leveraging the API helpers. The customization run is parameterized at runtime.
